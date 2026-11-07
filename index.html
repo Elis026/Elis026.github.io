@@ -25,7 +25,7 @@
     <section id="inicio" class="hero">
       <p class="etiqueta">Estudante de Engenharia de Software</p>
       <h1>Elis Oliveira Souza</h1>
-      <p class="lead">Back-end com <strong>Java e Spring Boot</strong>, banco de dados <strong>PostgreSQL</strong> e aplicações web. Gosto de transformar processos complexos em soluções claras e bem documentadas.</p>
+      <p class="lead">Back-end com <strong>Java e Spring Boot</strong> e <strong>Python</strong>, banco de dados <strong>PostgreSQL</strong>, aplicações web e <strong>IA aplicada</strong>. Gosto de transformar processos complexos em soluções claras e bem documentadas.</p>
       <div class="acoes">
         <a class="botao" href="#projetos">Ver projetos</a>
         <a class="botao secundario" href="https://github.com/Elis026" target="_blank" rel="noopener">GitHub</a>
@@ -36,7 +36,7 @@
 
     <section id="sobre">
       <h2>Sobre mim</h2>
-      <p>Trabalho com Java e Spring Boot, PostgreSQL, Docker e Git. Também já desenvolvi sistemas com React e Node.js e integrações com IA generativa. Uso Python em projetos acadêmicos e fiz cursos de Power BI e Excel avançado, com foco em análise de dados.</p>
+      <p>Trabalho com Java e Spring Boot, PostgreSQL, Docker e Git. Também já desenvolvi sistemas com React e Node.js. Integro IA generativa a sistemas reais, com cuidado com privacidade e com a validação humana do resultado. Uso Python em projetos acadêmicos e fiz cursos de Power BI e Excel avançado, com foco em análise de dados.</p>
       <p>Valorizo documentação organizada, Scrum e atenção a detalhes e prazos. Estou sempre em busca de aprender, crescer e conhecer novas oportunidades na minha carreira.</p>
     </section>
 
@@ -75,6 +75,7 @@
           <h4>MindSpace</h4>
           <p>Sistema de gestão para uma psicóloga: agenda, pacientes, prontuário, financeiro e apoio de IA para organizar as evoluções. API em Java com Spring Boot e PostgreSQL, e interface web em React com TypeScript.</p>
           <ul class="tags"><li>Java</li><li>Spring Boot</li><li>PostgreSQL</li><li>Flyway</li><li>JWT</li><li>Docker</li><li>React</li><li>TypeScript</li></ul>
+          <p><strong>Por dentro (IA):</strong> a psicóloga escreve o relato da sessão e o sistema o anonimiza antes do envio (nome, CPF e telefone viram marcadores). Um modelo da OpenAI, com instruções de sistema definidas em um arquivo de prompt, devolve um rascunho estruturado em JSON: texto da evolução, anotações e formulação do caso. O rascunho fica em validação e só vira registro depois que a profissional revisa e confirma. O contexto vem das últimas anotações do paciente, também anonimizadas.</p>
           <p class="nota">Código em repositório privado, por conter dados de uso profissional.</p>
         </article>
         <article class="cartao">
@@ -100,6 +101,7 @@
           <p><strong>Para que serve:</strong> estimular a participação de servidores em ações de inovação e dar à equipe do laboratório um lugar único para cadastrar conteúdos e validar as atividades.</p>
           <p><strong>Gargalo que resolve:</strong> os cursos são ofertados de forma isolada, sem trilhas alinhadas às competências do cargo nem atividades práticas ligadas ao trabalho, o que dificulta aplicar o que se aprende. Sem registro, reconhecimento institucional e acompanhamento da evolução dos servidores, a adesão é baixa e há desistência.</p>
           <p><strong>Meu papel:</strong> levantamento de requisitos, documentação padronizada do projeto, protótipo navegável e a migração para Java/Spring Boot.</p>
+          <p><strong>Por dentro:</strong> o protótipo foi criado no Firebase Studio. A versão em Java prevê perfis de acesso, com um administrador da equipe do laboratório que cadastra cursos, desafios e missões e valida as atividades, e login por sessão com Spring Security.</p>
           <ul class="tags"><li>Firebase Studio (protótipo)</li><li>Java e Spring Boot (versão em desenvolvimento)</li></ul>
         </article>
         <article class="cartao">
@@ -109,6 +111,7 @@
           <p><strong>Para que serve:</strong> reunir em um só lugar as informações das pesquisas, para o núcleo localizar e acompanhar o que foi produzido.</p>
           <p><strong>Gargalo que resolve:</strong> informações espalhadas e difíceis de localizar.</p>
           <p><strong>Meu papel:</strong> desenvolvimento do protótipo.</p>
+          <p><strong>Por dentro:</strong> o protótipo entregue roda em Google Apps Script. Em paralelo, o sistema está sendo migrado para Java e Spring Boot, com migrações de banco versionadas (Flyway), controle de acesso e um módulo de consulta com IA (Spring AI e Google Gemini).</p>
           <ul class="tags"><li>Google Apps Script (protótipo entregue)</li></ul>
         </article>
       </div>
